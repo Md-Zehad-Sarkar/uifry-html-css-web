@@ -186,7 +186,10 @@
     left: 325px;
     top: 195px;
   }
-
+  .iphone-div {
+    position: relative;
+    margin-top: 200px;
+  }
   .iphone-1,
   .iphone-2,
   .iphone-3 {
