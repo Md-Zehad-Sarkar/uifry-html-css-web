@@ -1,0 +1,104 @@
+@media (max-width: 768px) {
+  header {
+    /* width: 100%; */
+    max-width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  header nav {
+    /* width: 100%; */
+    max-width: 100%;
+    justify-content: center;
+  }
+
+  .star-one {
+    display: none;
+  }
+
+  main {
+    /* width: 100%; */
+    max-width: 100%;
+    margin-top: 60px;
+  }
+
+  .parent {
+    grid-template-columns: 1fr;
+  }
+
+  .header-title {
+    font-size: 48px;
+    text-align: center;
+  }
+
+  .header-text {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .btn-parent-div {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .group-scl-parent {
+    display: flex;
+    justify-content: center;
+  }
+
+  .scale-image-1,
+  .scale-image-2,
+  .scale-image-3,
+  .scale-image-4,
+  .scale-image-a,
+  .scale-image-star,
+  .scale-image-vline-1,
+  .scale-image-vline-2,
+  .scale-image-text-2 {
+    display: none;
+  }
+
+  .iphone-1,
+  .iphone-2,
+  .iphone-3,
+  .elippse-1,
+  .elippse-2,
+  .elippse-3 {
+    width: 100px;
+    height: 200px;
+    left: 50%;
+    transform: translateX(-50%);
+    rotate: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .header-title {
+    font-size: 36px;
+  }
+
+  .header-text {
+    font-size: 14px;
+  }
+
+  .get-started-btn,
+  .watch-video-btn {
+    padding: 10px;
+  }
+
+  .iphone-1,
+  .iphone-2,
+  .iphone-3 {
+    width: 80px;
+    height: 160px;
+    top: 0;
+  }
+
+  .elippse-1,
+  .elippse-2,
+  .elippse-3 {
+    width: 150px;
+    height: 200px;
+    top: 0;
+  }
+}
