@@ -200,7 +200,7 @@
   }
 
   .iphone-1 {
-    left: --10px;
+    left: -10px;
     top: -150px;
     z-index: 6;
   }
@@ -237,7 +237,6 @@
   }
 
   .parent {
-    display: grid;
     grid-template-columns: 1fr;
     gap: 0;
   }
@@ -258,5 +257,36 @@
 
   .group-scl-parent {
     display: none;
+  }
+
+  .iphone-div {
+    position: relative;
+    margin-top: 200px;
+  }
+  .iphone-1,
+  .iphone-2,
+  .iphone-3 {
+    width: 280px;
+    height: 483px;
+    position: absolute;
+    rotate: -15deg;
+  }
+
+  .iphone-1 {
+    left: -10px;
+    top: -150px;
+    z-index: 6;
+  }
+
+  .iphone-2 {
+    left: 40px;
+    top: -120px;
+    z-index: 5;
+  }
+
+  .iphone-3 {
+    left: 100px;
+    top: -100px;
+    z-index: 4;
   }
 }
